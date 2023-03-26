@@ -1,0 +1,100 @@
+$primary:#8FBC8F;
+$secondary:#c7ddc6;
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+
+ //--------INICIO------*//
+
+.inicio{
+    background-image: url(Assets/img/fondo-floral-acuarela_125540-829.webp);
+    background-size: cover;
+    background-position: top left;
+}
+
+.btn-primary{
+    color: white;
+    font-weight: bolder;
+}
+
+
+.banner-content > h1{
+    font-size: 90px;
+    font-weight: normal;
+    margin-bottom: 3rem;
+
+}
+.banner-content > h2{
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 3rem;
+
+}
+
+  .logo{
+    margin-top: 50px;
+  }
+
+  .preguntas{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .footer{
+    size-adjust: 50px;
+  }
+  //--------PRODUCTOS------*//
+
+  .productos{
+    background-image: url(Assets/img/fondo-floral-acuarela_125540-829.webp);
+    background-size: cover;
+    background-position: top left;
+}
+
+    .margen{
+    margin-top: 150px;
+}
+  .cardfondo{
+    background-image: url(Assets/img/fondo-floral-acuarela_125540-829.webp);
+    background-size: cover;
+    background-position: top left;
+}
+
+.boton{
+  margin-top: 200px;
+}
+
+
+//--------HUERTA-----//
+
+.carruselfondo{
+  background-image: url(Assets/img/fondo\ de\ plantas\ 6.avif);
+  background-size: cover;
+  background-position: top left;
+}
+
+.carrusel{
+  margin-left: 270px;
+  width: 1000px;
+  height: 610px;
+  padding: 50px;
+}
+
+.compostfondo{
+  background-image: url(Assets/img/fondo\ de\ plantas\ 4.jfif);
+  background-size: cover;
+  background-position: top left;
+}
+
+.compost{
+  padding: 50px;
+}
+
+.img-compostera{
+    left: -20px;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+    border:5px splid $primary;
+    z-index: -1;
+}
+//-------ASERCA-DE-NOSTROS------//
